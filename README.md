@@ -5,12 +5,12 @@ A string of characters that specifies a search pattern in text is called a regul
 I'll break down the following regex for matching an email in this tutorial: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/, dissecting it into its component elements. For validating email inputs in a variety of applications, this regex is useful.
 
 ## Table of Contents
-- Anchors
-- Quantifiers
-- OR Operator
-- Character Classes
-- Flags
-- Grouping and Capturing
+- [Anchors](#anchors)
+- [Quantifiers](#quantifiers)
+- [OR Operator](#or-operator)
+- [Character Classes](#character-classes)
+- [Flags](#flags)
+- [Grouping and Capturing](#grouping-and-capturing)
 
 ## Anchors
 The anchors $ and ^ are used by this regex to identify the beginning and end of a string, respectively. These markers indicate the start and finish of the full string rather than individual lines because multiline mode is not enabled.
