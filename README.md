@@ -1,4 +1,4 @@
-# Regex Tutorial: Matching an Email
+# Regex Tutorial
 A string of characters that specifies a search pattern in text is called a regular expression, or regex. These expressions are quite helpful for extracting information from text that follows a certain pattern, such as emails, phone numbers, and more. They are extensively utilized in a variety of programming languages, such as JavaScript.
 
 ## Summary
